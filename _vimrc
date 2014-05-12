@@ -42,9 +42,6 @@ set incsearch
 syntax on
 set t_Co=256
 color molokai 
-highlight Pmenu ctermfg=0 ctermbg=6 gui=none
-highlight PmenuSel ctermfg=7 ctermbg=4 gui=none
-highlight PmenuSbar ctermfg=0 ctermbg=9 gui=none
 
 " AIRLINE CONFIG
 set laststatus=2
