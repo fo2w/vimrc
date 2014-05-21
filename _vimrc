@@ -24,6 +24,7 @@ Plugin 'bling/vim-airline'
 Plugin 'FuzzyFinder'
 Plugin 'L9'
 Plugin 'molokai'
+Plugin 'kchmck/vim-coffee-script'
 call vundle#end()
 filetype plugin indent on
 
@@ -42,10 +43,14 @@ set incsearch
 syntax on
 set t_Co=256
 color molokai 
+set foldlevel=90
 
 " AIRLINE CONFIG
 set laststatus=2
 let g:airline#extensions#tabline#enabled=1
+
+" NERDTREE CONFIG
+let g:NERDTreeDirArrows=0
 
 " KEY MAPPING
 nnoremap <C-Y> :NERDTreeToggle<CR>
