@@ -25,6 +25,7 @@ Plugin 'FuzzyFinder'
 Plugin 'L9'
 Plugin 'molokai'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'AutoComplPop'
 call vundle#end()
 filetype plugin indent on
 
@@ -39,6 +40,8 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set cindent
+set hlsearch
+set ignorecase
 set incsearch
 syntax on
 set t_Co=256
@@ -108,3 +111,6 @@ nnoremap <C-P> :cp<CR>
 
 " VIMGREP command
 map gr :vimgrep <cword> **/*.lua **/*.c **/*.cpp **/*.h<CR>
+
+" AutoComplPop CONFIG
+let g:clang_library_path = '/usr/lib/llvm-3.4/lib'
