@@ -26,6 +26,8 @@ Plugin 'L9'
 Plugin 'molokai'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'AutoComplPop'
+Plugin 'toyamarinyon/vim-swift'
+Plugin 'garyharan/vim-proto'
 call vundle#end()
 filetype plugin indent on
 
