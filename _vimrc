@@ -24,15 +24,13 @@ Plugin 'bling/vim-airline'
 Plugin 'FuzzyFinder'
 Plugin 'L9'
 Plugin 'molokai'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'AutoComplPop'
-Plugin 'toyamarinyon/vim-swift'
-Plugin 'garyharan/vim-proto'
 call vundle#end()
 filetype plugin indent on
 
 " GLOBAL SETUP
-set fileencodings=ucs-bom,utf-8,cp936
+set paste
+set fileencodings=utf-8
 set nu
 set autoindent
 set smartindent
